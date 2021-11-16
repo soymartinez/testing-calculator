@@ -1,0 +1,11 @@
+<form action="">
+    <h2 class="text-area">Área del circulo</h2>
+    <input [(ngModel)]="radio" type="number" min="0" placeholder="Ingrese el radio del circulo" name="radio"
+        class="w-100">
+    <div class="resultado">
+        <h2>{{ result }}</h2>
+    </div>
+    <button (click)="area()" type="submit" class="btn btn-primary w-100">
+        Calcular
+    </button>
+</form>
