@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 10px;
+    font-weight: 400;
+}
