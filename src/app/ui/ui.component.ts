@@ -19,9 +19,9 @@ export class UiComponent implements OnInit {
   area() {
     this.result = circle(this.radio)
 
-    if (this.radio == '' || this.radio == null) {
-      this.result = 'Error';
-    }
+    // if (this.radio == '' || this.radio == null) {
+    //   this.result = 'Error';
+    // }
   
     this.radio = ''
   }
