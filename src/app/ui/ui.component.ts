@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { circle } from '../circle/circle.component';
+import { circle } from '../circle/circle.component';
 
 @Component({
   selector: 'app-ui',
@@ -17,7 +17,7 @@ export class UiComponent implements OnInit {
   radio = '';
   
   area() {
-    // this.result = circle(this.radio)
+    this.result = circle(this.radio)
 
     if (this.radio == '' || this.radio == null) {
       this.result = 'Error';
